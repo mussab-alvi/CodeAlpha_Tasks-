@@ -1,0 +1,78 @@
+# 🔐 Login & Registration System in C++
+
+This is a beginner-friendly C++ project that implements a basic login and registration system using file handling. It allows users to register with a username and password, validates inputs, and stores credentials securely in text files. Users can then log in by verifying their credentials.
+
+## 💡 Features
+
+- Register new users with username and password
+- Validates:
+  - Empty usernames
+  - Minimum password length (6 characters)
+  - Password confirmation
+- Prevents duplicate usernames
+- Login functionality with stored credentials
+- Error handling for invalid inputs
+- Simple menu-driven interface
+
+## 🛠️ How It Works
+
+1. **Registration**
+   - User enters a new username and password.
+   - Program checks if the username already exists.
+   - Password must be at least 6 characters and confirmed correctly.
+   - Credentials are saved in a text file named after the username.
+
+2. **Login**
+   - User enters username and password.
+   - Program checks if the file exists and reads the stored password.
+   - If credentials match, login is successful.
+
+3. **Exit**
+   - User can exit the program from the menu.
+
+## 📂 Example Menu
+
+-----------------Menu------------------
+
+1. Register
+
+2. Login
+
+3. Exit
+
+
+ 📷 Demo
+
+Check out the LinkedIn video where I explain the code step-by-step and show how it works.
+
+ 📌 Author
+
+Muhammad Mussab Alvi
+Computer Science Undergraduate | Aspiring Software Developer | Learning Python & C++  
+🔗 LinkedIn Profile=(www.linkedin.com/in/muhammad-mussab-alvi-450028392)  
+
+📦 Files Included
+
+ 📂 Files Included 
+- `login_system.cpp` – Source code of the project
+- `login_system.exe` – Compiled executable (for Windows users)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
