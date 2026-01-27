@@ -1,0 +1,42 @@
+ 🎓 CGPA Calculator in C++
+
+This is a simple yet practical C++ program that calculates a student CGPA based on their letter grades and credit hours. It demonstrates core programming concepts like arrays, loops, conditionals, and formatted output.
+
+ 💡 Features
+
+- Accepts up to 50 courses
+- Supports letter grades (A+, A, B-, etc.) with case-insensitive input
+- Maps grades to GPA values using a standard scale
+- Calculates total grade points and final CGPA
+- Displays a formatted summary table of all courses
+
+ 📊 Grading Scale
+
+| Grade | Range       | GPA Value |
+|-------|-------------|-----------|
+| A+    | 90+         | 4.0       |
+| A-    | 85–89       | 3.7       |
+| A     | 80–84       | 3.5       |
+| B+    | 75–79       | 3.3       |
+| B     | 70–74       | 3.0       |
+| B-    | 65–69       | 2.7       |
+| C+    | 60–64       | 2.3       |
+| C     | 55–59       | 2.0       |
+| D     | 40–54       | 1.0       |
+| F     | Below 33    | 0.0       |
+
+ 🛠️ How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mussab-alvi/cgpa-calculator.git
+📌 Author
+Mussab  
+BSCS Student | Passionate About Programming | Expanding Skills in Python
+
+🔗 LinkedIn Profile (www.linkedin.com/in/muhammad-mussab-alvi-450028392)  
+
+📦 Files Included
+cgpa_calculator.cpp – Source code
+
+cgpa_calculator.exe – Compiled executable (for Windows users)
